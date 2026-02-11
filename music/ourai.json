@@ -1,0 +1,20 @@
+[
+  {
+    "src": "./music/往欄印.opus",
+    "title": "往欄印",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/往欄印.jpg",
+    "lrc": "./music/往欄印.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO7th_SGwe",
+    "duration": 298.15
+  },
+  {
+    "src": "./music/残痕字.opus",
+    "title": "残痕字",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/往欄印.jpg",
+    "lrc": "./music/残痕字.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO7th_SGwe",
+    "duration": 255.07
+  }
+]

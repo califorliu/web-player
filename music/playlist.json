@@ -1,0 +1,56 @@
+[
+  {
+    "src": "./music/往欄印.opus",
+    "title": "往欄印",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/往欄印.jpg",
+    "lrc": "./music/往欄印.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO7th_SGwe",
+    "duration": 298.15
+  },
+  {
+    "src": "./music/残痕字.opus",
+    "title": "残痕字",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/往欄印.jpg",
+    "lrc": "./music/残痕字.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO7th_SGwe",
+    "duration": 255.07
+  },
+  {
+    "src": "./music/静降想.opus",
+    "title": "静降想",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/静降想.jpg",
+    "lrc": "./music/静降想.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO_8thSGwe",
+    "duration": 278.19
+  },
+  {
+    "src": "./music/エガクミライ.opus",
+    "title": "エガクミライ",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/エガクミライ.jpg",
+    "lrc": "./music/エガクミライ.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO_Egakumiraiwe",
+    "duration": 239.41
+  },
+  {
+    "src": "./music/音一会.opus",
+    "title": "音一会",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/音一会.jpg",
+    "lrc": "./music/音一会.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/otoichiehp",
+    "duration": 283.63
+  },
+  {
+    "src": "./music/焚音打.opus",
+    "title": "焚音打",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/焚音打.jpg",
+    "lrc": "./music/焚音打.lrc",
+    "copyrightUrl": "https://lnk.to/MyGO_2ndALwe",
+    "duration": 244.91
+  }
+]

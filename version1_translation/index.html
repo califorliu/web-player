@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- View Switcher Button -->
+    <div class="view-switcher">
+        <button id="viewToggle" class="view-toggle-btn">
+            <i class="material-icons">swap_horiz</i>
+            <span>Switch View</span>
+        </button>
+    </div>
+
+    <!-- Mini Player (musicPlayer-js style) -->
+    <div class="mini-player-wrapper" id="miniPlayer">
+        <h1 style="color:rgb(252, 249, 251)">Music Player</h1>
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+                <h4 id="mini-title"></h4>
+                <div class="progress-container" id="mini-progress-container">
+                    <div class="progress" id="mini-progress"></div>
+                </div>
+            </div>
+            <audio id="mini-audio"></audio>
+            <div class="img-container">
+                <img src="" alt="music-cover" id="mini-cover">
+            </div>
+            <div class="navigation">
+                <button id="mini-prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button id="mini-play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="mini-next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Large Player (player.html style with enhancements) -->
+    <div class="large-player-wrapper" id="largePlayer">
+        <div class="shell" id="shell">
+            <!-- Cover -->
+            <div class="cover">
+                <img id="large-cover" src="" alt="">
+            </div>
+            
+            <!-- Info -->
+            <div class="info">
+                <div class="title" id="large-title">Music Title</div>
+                <div class="singer" id="large-artist">Artist</div>
+            </div>
+            
+            <!-- Volume Control -->
+            <div class="volume-box">
+                <span class="volume-down"><i class="material-icons">remove</i></span>
+                <input type="range" class="volume-range" step="1" value="80" min="0" max="100">
+                <span class="volume-up"><i class="material-icons">add</i></span>
+            </div>
+            
+            <!-- Control Buttons -->
+            <div class="btn-box">
+                <i class="material-icons repeat">repeat</i>
+                <i class="material-icons lyrics-toggle">subtitles</i>
+                <i class="material-icons volume">volume_up</i>
+                <i class="material-icons playlist-toggle">queue_music</i>
+                <a href="#" id="copyright-link" class="copyright-btn" target="_blank" style="display:none;">
+                    <i class="material-icons">link</i>
+                </a>
+            </div>
+            
+            <!-- Music Progress -->
+            <div class="music-box">
+                <input type="range" class="seekbar" step="0.1" value="0" min="0" max="100">
+                <audio id="large-audio"></audio>
+                <span class="current-time">0:00</span>
+                <span class="duration">0:00</span>
+                <span class="prev-btn">
+                    <i class="material-icons">skip_previous</i>
+                </span>
+                <span class="play">
+                    <i class="material-icons">play_arrow</i>
+                </span>
+                <span class="next-btn">
+                    <i class="material-icons">skip_next</i>
+                </span>
+            </div>
+            
+            <!-- Playlist Panel -->
+            <div class="playlist-panel" id="playlistPanel">
+                <div class="panel-header">
+                    <h3>Playlist</h3>
+                    <i class="material-icons close-panel">close</i>
+                </div>
+                <div class="playlist-items" id="playlistItems"></div>
+            </div>
+            
+            <!-- Lyrics Panel -->
+            <div class="lyrics-panel" id="lyricsPanel">
+                <div class="panel-header">
+                    <h3>Lyrics</h3>
+                    <i class="material-icons close-panel">close</i>
+                </div>
+                <div class="lyrics-content" id="lyricsContent">
+                    <p class="no-lyrics">No lyrics available</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

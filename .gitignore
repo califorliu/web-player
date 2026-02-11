@@ -1,0 +1,8 @@
+*.opus
+/musicPlayer-js
+/archive
+/assets
+player.html
+FIXES.md
+/music/playlist_backup_20260206171405.json
+/music/egakumirai.json

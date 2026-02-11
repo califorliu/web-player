@@ -1,0 +1,20 @@
+[
+{
+    "src": "./music/静降想.opus",
+    "title": "静降想",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/静降想.jpg",
+    "lrc": "./music/静降想.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO_8thSGwe",
+    "duration": 278.19
+  },
+    {
+    "src": "./music/エガクミライ.opus",
+    "title": "エガクミライ",
+    "artist": "MyGO!!!!!",
+    "cover": "./music/エガクミライ.jpg",
+    "lrc": "./music/エガクミライ.lrc",
+    "copyrightUrl": "https://bmu.lnk.to/MyGO_Egakumiraiwe",
+    "duration": 239.41
+  }
+]
